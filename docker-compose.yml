@@ -6,6 +6,7 @@ services:
       MYSQL_DATABASE: lamp_demo
       MYSQL_USER: lamp_demo
       MYSQL_PASSWORD: password
+      # MYSQL_ROOT_PASSWORD: root
       MYSQL_ALLOW_EMPTY_PASSWORD: 1
     volumes:
       - "./db:/docker-entrypoint-initdb.d"
